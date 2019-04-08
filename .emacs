@@ -1,5 +1,11 @@
 ;; init.el --- Emacs configuration
 
+;; ido
+  (require 'ido)
+    (ido-mode t)
+
+(setq ido-show-dot-for-dired t)
+
 ;;R
 ;;------------------------------------------------------------------------
 
